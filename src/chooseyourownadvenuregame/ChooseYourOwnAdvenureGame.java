@@ -18,6 +18,7 @@ public class ChooseYourOwnAdvenureGame {
         int choice4;
         int choice5;
         int choice6;
+        int choice7;
        
 
         System.out.println("Choices will be presented to you, please enter the number in the bracket if you want to go with that choice.");
@@ -73,12 +74,21 @@ public class ChooseYourOwnAdvenureGame {
                     else if (choice6 == 2)
                     {
                         System.out.println("You go to the kitchen and find food, and some cloth to cover your wounds. You feel a little better but are still weak and tired.");
-                        System.out.println("");
+                        System.out.println("You now have a big decision to make, will you (1)spend the rest of your days in the house or (2)confront the monster in your already weak state.");
+                        choice7 = keyedInput.nextInt();
+                        if (choice7 == 1)
+                        {
+                            System.out.println("w"); 
+                        }
+                        else if (choice7 == 2)
+                        {
+                            System.out.println("l"); 
+                        }
                     }
                 }
                 else if (choice5 == 2)
                 {
-                    System.out.println("It got you, you cannot hide forever. It will always find you."); 
+                    System.out.println("It got you, you cannot hide forever. It will always find you.");
                 }
             }
         }  
