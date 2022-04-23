@@ -78,11 +78,11 @@ public class ChooseYourOwnAdvenureGame {
                         choice7 = keyedInput.nextInt();
                         if (choice7 == 1)
                         {
-                            System.out.println("w"); 
+                            System.out.println("You live everyday in fear, waiting for the day you get caught. You regret this choice but feel like there is no escape now."); 
                         }
                         else if (choice7 == 2)
                         {
-                            System.out.println("l"); 
+                            System.out.println("You try to lure the monster into a trap, but you trip and fall due to your injuries and the monster gets you."); 
                         }
                     }
                 }
@@ -100,4 +100,3 @@ public class ChooseYourOwnAdvenureGame {
     }
     
 }
-//System.out.println(""); 
